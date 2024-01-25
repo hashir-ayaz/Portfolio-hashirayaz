@@ -2,47 +2,52 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #0e1011;
+  background: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .navbar h1 {
-  color: #fff;
+  color: #0e1011;
   font-size: 30px;
+  font-weight: 600;
   padding: 10px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: left;
+  left: 10px;
+  justify-self: flex-start;
 }
 
 .navbar {
   display: flex;
   justify-content: flex-end;
-  background-color: #0e1011;
+  background-color: #fff;
   gap: 10px;
 }
 
 button {
-  display: inline-block;
+  /* display: inline-block; */
   outline: 0;
   cursor: pointer;
-  border: 2px solid #000;
+  /* border: 2px solid #000; */
   border-radius: 18px;
-  color: #000;
+  color: #ffffff;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background: #fff;
+  background: #0e1011;
   font-size: 15px;
   font-weight: 600;
-  line-height: 28px;
-  padding: 9px 10px;
+  /* line-height: 28px; */
+  padding: 10px 2px;
   margin: 10px;
   text-align: center;
   transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button:hover {
-  background: #0e1011;
-  color: #fff;
+  color: #0e1011;
+  background: #fff;
 }
 
 .about-me h1 {
@@ -55,7 +60,7 @@ h1,
 h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #fff;
+  color: #0e1011;
 }
 
 .about-me h2 {
@@ -78,4 +83,82 @@ h2 {
   padding-top: 50px;
   width: 900px;
   margin: 0 auto;
+}
+
+.intro {
+  background-color: #6e07f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 16rem;
+}
+.intro h1 {
+  padding-top: 20px;
+  color: #fff;
+}
+
+.intro p {
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: 500;
+  max-width: 700px;
+  word-wrap: break-word;
+}
+
+.skills {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-evenly;
+  flex: auto;
+  align-items: center;
+  position: relative;
+  margin-top: -40px;
+  /* flex-wrap: wrap; */
+}
+
+.skills h2 {
+  color: black;
+}
+
+.skills div {
+  margin-top: -80px;
+  border: #e0c8ff solid 0.5px;
+  background-color: #fff;
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.skills div p {
+  /* max-width: 100px; */
+  padding: 20px;
+  font-size: 18px;
+}
+
+.skills div span {
+  color: #6e07f3;
+  font-size: 18px;
+  padding: 20px;
+}
+
+#designer-panel {
+  margin-left: 20px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+#front-end-panel {
+}
+
+#mentor-panel {
+  margin-right: 20px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
