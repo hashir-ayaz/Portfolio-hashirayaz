@@ -181,6 +181,12 @@ ul {
 #front-end-panel {
 }
 
+#designer-panel,
+#mentor-panel,
+#front-end-panel {
+  min-height: 800px;
+}
+
 #mentor-panel {
   margin-right: 40px;
   border-top-right-radius: 12px;
@@ -188,6 +194,7 @@ ul {
 }
 
 .recent-work {
+  padding-top: 50px;
   text-align: center;
 }
 .recent-work p {
