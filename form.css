@@ -1,0 +1,50 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.form h2 {
+  font-size: 40px;
+  /*wrap text if too long*/
+  word-wrap: break-word;
+  margin-bottom: 20px;
+  font-weight: 300;
+  /*center align text*/
+  text-align: center;
+  /*the text is centered in the middle of the page and max width is 70% of page*/
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.header h1 {
+  font-size: 30px;
+  margin-left: 0;
+  font-weight: 600;
+}
+
+.form img {
+  width: 100px;
+  margin-top: -50px;
+  display: block;
+  margin: auto;
+  top: -20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
